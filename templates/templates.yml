@@ -260,10 +260,10 @@
     "restart_policy": "unless-stopped",
     "categories": ["offensive", "bare", "utils"],
     "ports": [
-      "7010:7010/tpc",
+      "7010:7010/tcp",
       "7011:7011/udp",
-      "7012:7012/tpc",
-      "8888:8888/tpc"
+      "7012:7012/tcp",
+      "8888:8888/tcp"
       ]    
   },
   {
