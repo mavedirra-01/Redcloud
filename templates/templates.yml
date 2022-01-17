@@ -249,18 +249,21 @@
   },
   {  
     "type": 1,
-    "title": "Kali Web noVNC + LXDE",
+    "title": "Caldera",
     "platform": "linux",
     "network": "redcloud_default",
     "description": "Kali Docker container with minimal LXDE",
-    "name": "red_kali-vnc",
-    "logo": "https://i.imgur.com/tmLEP0b.jpg",
-    "note": "From your web browser: http://your-docker-machine-ip:6080",
-    "image": "jgamblin/kalibrowser-lxde",
+    "name": "red_caldera",
+    "logo": "https://caldera.mitre.org/img/caldera-logo.png",
+    "note": "From your web browser: http://your-docker-machine-ip:8888",
+    "image": "mavedirra/caldera",
     "restart_policy": "unless-stopped",
     "categories": ["offensive", "bare", "utils"],
     "ports": [
-      "6080:6080/tcp"
+      "7010:7010/tpc",
+      "7011:7011/udp",
+      "7012:7012/tpc",
+      "8888:8888/tpc"
       ]    
   },
   {
