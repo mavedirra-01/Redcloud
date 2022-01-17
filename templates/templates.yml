@@ -252,7 +252,7 @@
     "title": "Caldera",
     "platform": "linux",
     "network": "redcloud_default",
-    "description": "Kali Docker container with minimal LXDE",
+    "description": "Caldera for advanced penetration testing",
     "name": "red_caldera",
     "logo": "https://caldera.mitre.org/img/caldera-logo.png",
     "note": "From your web browser: http://your-docker-machine-ip:8888",
